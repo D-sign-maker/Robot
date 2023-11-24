@@ -183,14 +183,14 @@ void IzvrsiKomandu(Komande komanda, int parametar, int &x, int &y, Pravci &orije
 
 
             case 'I':
-                std::cout << "Komanda I izvršena." << std::endl;
+                std::cout << "Komanda I izvrÅ¡ena." << std::endl;
                 break;
             case 'K':
                 if (zadnja_komanda_bila_k) {
                     std::cout << "Zadan je suvisan parametar nakon komande !" << std::endl;
                 }
                 else {
-                    std::cout << "Komanda K izvršena." << std::endl;
+                    std::cout << "Komanda K izvrÅ¡ena." << std::endl;
                     zadnja_komanda_bila_k = true;
                 }
                 break;
